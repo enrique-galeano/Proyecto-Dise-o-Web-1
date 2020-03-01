@@ -1,0 +1,93 @@
+header{
+  background-image: url("../img/rectan-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#bestS article {
+  margin-left: 20px;
+}
+
+#newBooks article{
+  margin-left: 20px;
+}
+#middle{
+  background-image: url("../img/book-dry.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 25% 0;
+}
+
+.titulos{
+  font-size: 25px;
+  margin-top: 35px;
+  color: #B21F25;
+  border-bottom: 1px solid #707070;
+}
+
+/*esto es para los parrafos*/
+#firstColumns{
+  font-size: 10px;
+}
+
+/*esto es para los botones*/
+#firstColumns .btn-dark{
+  color:#B41C1E;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  /*margin-right: 30px;*/ /*Como mover con margen dentro de una columna preguntar */
+}
+
+#firstColumns h5{
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#secondColumns{
+  font-size: 10px;
+  padding-bottom: 5%;
+}
+
+#secondColumns h5 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+a{
+  font-size: 12px;
+  color: #B41C1E;
+}
+
+a:hover{
+  color: #B41C1E;
+}
+
+footer{
+  background-image: url("../img/rectan-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15px 0;
+
+}
+
+footer{
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+  color: #ffffff;
+}
+
+footer h2{
+  text-align: left;
+  color: #ffffff;
+}
