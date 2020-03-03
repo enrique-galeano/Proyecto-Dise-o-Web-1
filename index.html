@@ -1,84 +1,97 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProyectoDiseñoWeb1</title>
     <link  href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="css/bootstrap-custom.css" rel="stylesheet">
     <link  href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="img/LUOXOS.png" alt="logotipo" class = "img-fluid">
+        <img src="img/LUOXOS.jpg" alt="logotipo" class = "img-fluid">
       </div>
     </header>
-    <section id = "middle">
-      <div class="container">
-        <div id="carouselAbout" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/book-dry.png" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/BooksLeavesCover.png" alt="Second slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+
+    <section id = "top">
+      <div class="container-fluid">
+        <div id="clb" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#clb" data-slide-to="0" class="active"></li>
+            <li data-target="#clb" data-slide-to="1"></li>
+            <li data-target="#clb" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/book-dry.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/bookopencover.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/booksleavescover.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#clb" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#clb" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </section>
+
     <section id = "bestS">
         <div class="container">
           <h2 class = "titulos">Bestsellers</h2>
           <div class="row">
             <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/cook.png" alt="bookCook" class = "img-fluid">
+              <img src="img/cook.jpg" alt="bookCook" class = "img-fluid">
             </article>
             <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/joy.png" alt="bookJoy" class = "img-fluid">
+              <img src="img/joy.jpg" alt="bookJoy" class = "img-fluid">
             </article>
             <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/king.png" alt="bookKing" class = "img-fluid">
+              <img src="img/king.jpg" alt="bookKing" class = "img-fluid">
             </article>
             <article class="col-md-2 col-sm-2 col-xs-2">
-              <img src="img/thesub.png" alt="bookSub" class = "img-fluid">
+              <img src="img/thesub.jpg" alt="bookSub" class = "img-fluid">
             </article>
             <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/mihistoria.png" alt="bookMi" class = "img-fluid">
+              <img src="img/mihistoria.jpg" alt="bookMi" class = "img-fluid">
             </article>
           </div>
         </div>
     </section>
+
     <section id = "newBooks">
       <div class="container">
         <h2 class = "titulos">News</h2>
         <div class="row">
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/bookTh.png" alt="bookTh" class = "img-fluid">
+            <img src="img/bookTh.jpg" alt="bookTh" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/silentPat.png" alt="bookPat" class = "img-fluid">
+            <img src="img/silentPat.jpg" alt="bookPat" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/staySexy.png" alt="bookStay" class = "img-fluid">
+            <img src="img/staySexy.jpg" alt="bookStay" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/john.png" alt="bookJohn" class = "img-fluid">
+            <img src="img/john.jpg" alt="bookJohn" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/thisWay.png" alt="bookMi" class = "img-fluid">
+            <img src="img/thisWay.jpg" alt="bookMi" class = "img-fluid">
           </article>
         </div>
       </div>
     </section>
+
     <section id = "firstColumns">
       <div class="container">
         <h2 class = "titulos">Featured Post</h2>
@@ -100,6 +113,7 @@
         </div>
       </div>
     </section>
+
     <section id = "secondColumns">
       <div class="container">
         <div class="row">
@@ -121,28 +135,34 @@
         </div>
       </div>
     </section>
+
     <footer>
       <section id = "noSeQueVaAPasar">
-        <div class="container">
-          <div class="row">
-            <article class="col-md-4 col-sm-4 col-xs-12">
-              <h2>Opening Hours</h2>
-              <p>Spring hours are now in effect. We are open MOST days from at least 3pm until 9pm.
-                If you are coming to Oia to visit us specifically, then first, THANK YOU! and second, we recommend
-                you call or email us to ensure that we will be open on that given day.</p>
-                <p>View Louxos’ location on Google maps.</p>
-            </article>
-            <article class="col-md-4 col-sm-4 col-xs-12">
-                <img src="img/pajaroLogo.png" height=150px alt="pajaroLogo" >
-            </article>
-            <article class="col-md-4 col-sm-4 col-xs-12">
-              <img src="img/Group-23.png" alt="pagoLogos" class = "img-fluid">
-              <p>Copyright 2020 LOUXOS
-              Shopify Theme by Underground mediaPOS and Econmmerce by Shopify</p>
-            </article>
+          <div class="container">
+            <div class="row">
+              <article class="col-md-4 col-sm-4 col-xs-12">
+                <h2>Opening Hours</h2>
+                <p>Spring hours are now in effect. We are open MOST days from at least 3pm until 9pm.
+                  If you are coming to Oia to visit us specifically, then first, THANK YOU! and second, we recommend
+                  you call or email us to ensure that we will be open on that given day.</p>
+                  <p>View Louxos’ location on Google maps.</p>
+              </article>
+              <article class="col-md-4 col-sm-4 col-xs-12">
+                  <img src="img/pajaroLogo.jpg" height=150px alt="pajaroLogo" >
+              </article>
+              <article class="col-md-4 col-sm-4 col-xs-12">
+                <img src="img/Group-23.jpg" alt="pagoLogos" class = "img-fluid">
+                <p>Copyright 2020 LOUXOS
+                Shopify Theme by Underground mediaPOS and Econmmerce by Shopify</p>
+              </article>
+            </div>
           </div>
-        </div>
-      </section>
-    </footer>
+        </section>
+      </footer>
+
+
+      
+    <script src= "js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
