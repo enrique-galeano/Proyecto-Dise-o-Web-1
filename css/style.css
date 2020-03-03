@@ -1,5 +1,5 @@
 header{
-  background-image: url("../img/rectan-2.png");
+  background-image: url("../img/rectan-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,13 +14,13 @@ header{
 #newBooks article{
   margin-left: 20px;
 }
-#middle{
+/*#middle{
   background-image: url("../img/book-dry.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 25% 0;
-}
+}*/
 
 .titulos{
   font-size: 25px;
@@ -70,7 +70,7 @@ a:hover{
 }
 
 footer{
-  background-image: url("../img/rectan-2.png");
+  background-image: url("../img/rectan-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
