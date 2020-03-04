@@ -1,168 +1,231 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProyectoDiseñoWeb1</title>
-    <link  href="css/bootstrap.min.css" rel="stylesheet">
-    <link  href="css/bootstrap-custom.css" rel="stylesheet">
-    <link  href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <img src="img/LUOXOS.jpg" alt="logotipo" class = "img-fluid">
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProyectoDiseñoWeb1</title>
+  <link  href="css/bootstrap.min.css" rel="stylesheet">
+  <link  href="css/bootstrap-custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+  <link  href="css/style.css" rel="stylesheet">
+</head>
 
-    <section id = "top">
-      <div class="container-fluid">
-        <div id="clb" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#clb" data-slide-to="0" class="active"></li>
-            <li data-target="#clb" data-slide-to="1"></li>
-            <li data-target="#clb" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/book-dry.jpg" alt="First slide">
+<body>
+
+  <header>
+    <div class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/LUOXOS.jpg" alt="Loxous" class = "img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Pages</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About us</a>
+              <a class="dropdown-item" href="#">About Us 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Services</a>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/bookopencover.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/booksleavescover.jpg" alt="Third slide">
-            </div>
+          </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <a class="nav-link disabled" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id = "top">
+    <div class="container-fluid">
+      <div id="clb" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#clb" data-slide-to="0" class="active"></li>
+          <li data-target="#clb" data-slide-to="1"></li>
+          <li data-target="#clb" data-slide-to="2"></li>
+          <li data-target="#clb" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/book-dry.jpg" alt="First slide">
           </div>
-          <a class="carousel-control-prev" href="#clb" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#clb" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id = "bestS">
-        <div class="container">
-          <h2 class = "titulos">Bestsellers</h2>
-          <div class="row">
-            <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/cook.jpg" alt="bookCook" class = "img-fluid">
-            </article>
-            <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/joy.jpg" alt="bookJoy" class = "img-fluid">
-            </article>
-            <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/king.jpg" alt="bookKing" class = "img-fluid">
-            </article>
-            <article class="col-md-2 col-sm-2 col-xs-2">
-              <img src="img/thesub.jpg" alt="bookSub" class = "img-fluid">
-            </article>
-            <article class="col-md-2 col-sm-2 col-xs-12">
-              <img src="img/mihistoria.jpg" alt="bookMi" class = "img-fluid">
-            </article>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/bookopencover.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/booksleavescover.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/bookscover.jpg" alt="Third slide">
           </div>
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#clb" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#clb" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <section id = "newBooks">
+  <section id = "bestS">
       <div class="container">
-        <h2 class = "titulos">News</h2>
+        <h2 class = "titulos">Bestsellers</h2>
         <div class="row">
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/bookTh.jpg" alt="bookTh" class = "img-fluid">
+            <img src="img/cook.jpg" alt="bookCook" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/silentPat.jpg" alt="bookPat" class = "img-fluid">
+            <img src="img/joy.jpg" alt="bookJoy" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/staySexy.jpg" alt="bookStay" class = "img-fluid">
+            <img src="img/king.jpg" alt="bookKing" class = "img-fluid">
+          </article>
+          <article class="col-md-2 col-sm-2 col-xs-2">
+            <img src="img/thesub.jpg" alt="bookSub" class = "img-fluid">
           </article>
           <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/john.jpg" alt="bookJohn" class = "img-fluid">
-          </article>
-          <article class="col-md-2 col-sm-2 col-xs-12">
-            <img src="img/thisWay.jpg" alt="bookMi" class = "img-fluid">
+            <img src="img/mihistoria.jpg" alt="bookMi" class = "img-fluid">
           </article>
         </div>
       </div>
-    </section>
+  </section>
 
-    <section id = "firstColumns">
-      <div class="container">
-        <h2 class = "titulos">Featured Post</h2>
-        <div class="row">
-          <article class="col-md-6 col-sm-6 col-xs-12">
-            <h5>Baby Steps To sing lit, let your hand</h5>
-            <p>Posted on May 23 2019</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#">Read More</a>
-          </article>
-          <article class="col-md-6 col-sm-6 col-xs-12">
-            <h5>Curious About Book Revies? With Bookstagrammer Grace Phua</h5>
-            <p>Posted on April 20 2019</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#">Read More</a>
-          </article>
-        </div>
+  <section id = "newBooks">
+    <div class="container">
+      <h2 class = "titulos">News</h2>
+      <div class="row">
+        <article class="col-md-2 col-sm-2 col-xs-12">
+          <img src="img/bookTh.jpg" alt="bookTh" class = "img-fluid">
+        </article>
+        <article class="col-md-2 col-sm-2 col-xs-12">
+          <img src="img/silentPat.jpg" alt="bookPat" class = "img-fluid">
+        </article>
+        <article class="col-md-2 col-sm-2 col-xs-12">
+          <img src="img/staySexy.jpg" alt="bookStay" class = "img-fluid">
+        </article>
+        <article class="col-md-2 col-sm-2 col-xs-12">
+          <img src="img/john.jpg" alt="bookJohn" class = "img-fluid">
+        </article>
+        <article class="col-md-2 col-sm-2 col-xs-12">
+          <img src="img/thisWay.jpg" alt="bookMi" class = "img-fluid">
+        </article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id = "secondColumns">
-      <div class="container">
-        <div class="row">
-          <article class="col-md-6 col-sm-6 col-xs-12">
-            <h5>Nonfiction: Quality Over Quantity width
+  <section id = "firstColumns">
+    <div class="container">
+      <h2 class = "titulos">Featured Post</h2>
+      <div class="row">
+        <article class="col-md-6 col-sm-6 col-xs-12">
+          <h5>Baby Steps To sing lit, let your hand</h5>
+          <p>Posted on May 23 2019</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">Read More</a>
+        </article>
+        <article class="col-md-6 col-sm-6 col-xs-12">
+          <h5>Curious About Book Revies? With Bookstagrammer Grace Phua</h5>
+          <p>Posted on April 20 2019</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id = "secondColumns">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-6 col-sm-6 col-xs-12">
+          <h5>Nonfiction: Quality Over Quantity width
               bookstagrammer Firqin Sumartono</h5>
-            <p>Posted on April 08 2019</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p>Posted on April 08 2019</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#">Read More</a>
+          <a href="#">Read More</a>
+        </article>
+        <article class="col-md-6 col-sm-6 col-xs-12">
+          <h5>Loo, Pretty Books With Bookstagrammer Christine Tan</h5>
+          <p>Posted on March 26 2019</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section id = "info-footer">
+      <div class="container">
+        <div class="row">
+          <article class="col-md-4 col-sm-4 col-xs-12">
+            <div class="opening">
+              <h2>Opening Hours</h2>
+              <p>Spring hours are now in effect. We are open MOST days from at least 3pm until 9pm.
+                    If you are coming to Oia to visit us specifically, then first, THANK YOU! and second, we recommend
+                    you call or email us to ensure that we will be open on that given day.</p>
+              <p>View Louxos’ location on Google maps.</p>
+            </div>
           </article>
-          <article class="col-md-6 col-sm-6 col-xs-12">
-            <h5>Loo, Pretty Books With Bookstagrammer Christine Tan</h5>
-            <p>Posted on March 26 2019</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#">Read More</a>
+          <article class="col-md-4 col-sm-4 col-xs-12">
+              <img src="img/pajaroLogo.jpg" height=150px alt="pajaroLogo" >
+          </article>
+          <article class="col-md-4 col-sm-4 col-xs-12">
+            <ul class = "list-inline redes">
+              <!--Iconos de paga de la pagina Loxous-->
+              <li class = "list-inline-item">
+                <a href="https://www.apple.com/apple-pay/" target="_blank"> <i class="fab fa-apple-pay"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.americanexpress.com" target="_blank"> <i class="fab fa-cc-amex"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://pay.google.com/about/" target="_blank"> <i class="fab fa-google-wallet"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.mastercard.us/en-us.html" target="_blank"> <i class="fab fa-cc-mastercard"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.paypal.com/us/webapps/mpp/home" target="_blank"> <i class="fab fa-paypal"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.shopify.com" target="_blank"> <i class="fab fa-shopify"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://usa.visa.com" target="_blank"> <i class="fab fa-cc-visa"></i></a>
+              </li>
+            </ul>
+            <p>Copyright 2020 LOUXOS Shopify Theme by Underground mediaPOS and Econmmerce by Shopify</p>
           </article>
         </div>
       </div>
     </section>
+  </footer>
 
-    <footer>
-      <section id = "noSeQueVaAPasar">
-          <div class="container">
-            <div class="row">
-              <article class="col-md-4 col-sm-4 col-xs-12">
-                <h2>Opening Hours</h2>
-                <p>Spring hours are now in effect. We are open MOST days from at least 3pm until 9pm.
-                  If you are coming to Oia to visit us specifically, then first, THANK YOU! and second, we recommend
-                  you call or email us to ensure that we will be open on that given day.</p>
-                  <p>View Louxos’ location on Google maps.</p>
-              </article>
-              <article class="col-md-4 col-sm-4 col-xs-12">
-                  <img src="img/pajaroLogo.jpg" height=150px alt="pajaroLogo" >
-              </article>
-              <article class="col-md-4 col-sm-4 col-xs-12">
-                <img src="img/Group-23.jpg" alt="pagoLogos" class = "img-fluid">
-                <p>Copyright 2020 LOUXOS
-                Shopify Theme by Underground mediaPOS and Econmmerce by Shopify</p>
-              </article>
-            </div>
-          </div>
-        </section>
-      </footer>
+  <script src= "js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-
-      
-    <script src= "js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
