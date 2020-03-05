@@ -6,22 +6,22 @@ a{
 	font-size:14px;
 }
 .navbar-light .navbar-nav .nav-link{
-	color:#000000; /*Color de las palabras del menu*/
+	color:#fff; /*Color de las palabras del menu*/
 	font-weight:300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-right: 20px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:#ffffff;/*Hover de las palabras del menu*/
+	color:#000000;/*Hover de las palabras del menu*/
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:#000; /*Color de la palabra HOME*/
+	color:#fff; /*Color de la palabra HOME*/
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
-	color:#fff;/*Hover de la palabra HOME*/
+	color:#000000;/*Hover de la palabra HOME*/
 }
 .btn-menu{
 	background-color: #000;/*No se de que es esto*/
